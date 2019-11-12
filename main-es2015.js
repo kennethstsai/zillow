@@ -514,7 +514,7 @@ let FormBodyComponent = class FormBodyComponent {
             }
         }
         if (valid) {
-            let link = "http://localhost:4200/#/submit";
+            let link = "https://kennethstsai.github.io/zillow/#/submit";
             window.open(link, "_self");
         }
     }
@@ -633,7 +633,7 @@ let OrderformBodyComponent = class OrderformBodyComponent {
         window.open(this.idControl);
     }
     formTestCase() {
-        let testUrl = "http://localhost:4200/#/form";
+        let testUrl = "https://kennethstsai.github.io/zillow/#/form";
         window.open(testUrl, "_self");
     }
 };

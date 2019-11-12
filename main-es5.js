@@ -555,7 +555,7 @@
                         }
                     }
                     if (valid) {
-                        var link = "http://localhost:4200/#/submit";
+                        var link = "https://kennethstsai.github.io/zillow/#/submit";
                         window.open(link, "_self");
                     }
                 };
@@ -640,7 +640,7 @@
                     window.open(this.idControl);
                 };
                 OrderformBodyComponent.prototype.formTestCase = function () {
-                    var testUrl = "http://localhost:4200/#/form";
+                    var testUrl = "https://kennethstsai.github.io/zillow/#/form";
                     window.open(testUrl, "_self");
                 };
                 return OrderformBodyComponent;
