@@ -627,7 +627,7 @@ let OrderformBodyComponent = class OrderformBodyComponent {
         this.link = "https://kennethstsai.github.io/zillow/#/form";
         this.companyName = "Zillow";
         this.approved = "preapproved";
-        this.idControl = this.otherApp + "?link=" + this.link + "&company=" + this.companyName + "&approved=" + this.approved;
+        this.idControl = this.otherApp + "?link=" + this.link;
     }
     redirectToIDControl() {
         window.open(this.idControl);
