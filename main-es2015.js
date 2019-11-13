@@ -625,8 +625,6 @@ let OrderformBodyComponent = class OrderformBodyComponent {
     ngOnInit() {
         this.otherApp = "com.myTestApp://";
         this.link = "https://kennethstsai.github.io/zillow/#/form";
-        this.companyName = "Zillow";
-        this.approved = "preapproved";
         this.idControl = this.otherApp + "?link=" + this.link;
     }
     redirectToIDControl() {
@@ -662,22 +660,29 @@ OrderformBodyComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
           <h6>310 S Jefferson St, Placentia, CA 92870</h6>
         </div>
       </div>
-      <div class="row">
-        <div class="text-center">
-        <button class="btn btn-primary mr-2 col-3">Tour</button>
-        <button class="btn btn-primary col-3">Apply with ID Control</button>
-        </div>
-      </div>
 
-      <div class="text-center mt-1">
+      <div class="text-center mt-3">
         <button class="btn btn-primary btn-rounded btn-buy" (click)="redirectToIDControl()">Apply with ID Control</button>
       </div>
-      <div class="text-center mt-4">
-        <button class="btn btn-dark btn-rounded btn-buy" (click)="formTestCase()">Request Tour</button>
+      <div class="text-center mt-3">
+        <button class="btn btn-secondary btn-rounded btn-buy" (click)="formTestCase()">Request Tour</button>
       </div>
 
-      <div class="text-center mt-4 border-top p-3">
-        <p class="text-primary link">View additional information</p>
+      <div class="mt-3">
+        <div class="text-center">
+          <img src="assets/img/apt_layouts.PNG" class="stock-img p-0 m-0">
+        </div>
+      </div>
+      <h5 class="mt-3">Location</h5>
+      <div class="mt-2">
+        <div class="text-center">
+          <img src="assets/img/map.PNG" class="stock-img p-0 m-0">
+        </div>
+      </div>
+      <div class="mt-2 mb-5">
+        <div class="text-center">
+          <img src="assets/img/offer.PNG" class="stock-img p-0 m-0">
+        </div>
       </div>
     </div>
   `
