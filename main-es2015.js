@@ -650,8 +650,8 @@ OrderformBodyComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
       </div>
 
       <div class="row border-bottom mt-2">
-        <p class="col-6 text-center border-right mb-2">Map</p>
-        <p class="col-6 text-center mb-0">Street View</p>
+        <p class="col-6 text-center border-right mb-2 text-primary img-buttons">Map</p>
+        <p class="col-6 text-center mb-0 text-primary img-buttons">Street View</p>
       </div>
 
       <div>
